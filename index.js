@@ -2,7 +2,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const { VERIFY_TOKEN } = require('./config'); // Certifique-se de que o VERIFY_TOKEN esteja correto.
-const axios = require('axios');
 const app = express();
 
 // Configuração para ler os corpos das requisições como JSON
