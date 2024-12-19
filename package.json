@@ -1,0 +1,15 @@
+{
+  "name": "webhook-tina",
+  "version": "1.0.0",
+  "description": "URL publica do webhook para facebook",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Eliobros Tech",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
